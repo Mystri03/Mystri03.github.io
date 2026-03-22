@@ -373,7 +373,7 @@ section { padding: 6.5rem 5rem; }
   position: relative; overflow: hidden;
 }
 .exp-card::after {
-  content: '✦ ✦';
+  content: '✦    ✦';
   position: absolute; right: 2.5rem; top: 2rem;
   font-size: 1.5rem; color: var(--blush-mid); letter-spacing: 0.5rem;
 }
@@ -786,7 +786,34 @@ footer {
   <h2 class="sec-title">What I <em>work with</em></h2>
 
   <div class="skills-grid">
+     
+    <div class="skill-card reveal">
+      <div class="sk-icon">
+        <svg viewBox="0 0 24 24"><path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99l1.5 1.5z"/></svg>
+      </div>
+      <h3>BI & Visualisation</h3>
+      <div class="pills">
+        <span class="pill">Power BI</span><span class="pill">Tableau</span>
+        <span class="pill">KPI Dashboards</span><span class="pill">Calculated Fields</span>
+        <span class="pill">Graphs</span><span class="pill">Charts</span><span class="pill">Maps</span>
+      </div>
+    </div>
+     
+    <div class="skill-card reveal">
+      <div class="sk-icon">
+        <svg viewBox="0 0 24 24"><path d="M20 13H4a1 1 0 000 2h16a1 1 0 000-2zM4 9h16a1 1 0 000-2H4a1 1 0 000 2zm0 8a1 1 0 000 2h10a1 1 0 000-2H4z"/></svg>
+      </div>
+      <h3>SQL & Databases</h3>
+      <div class="pills">
+        <span class="pill">SQL</span><span class="pill">DDL / DML</span>
+         <span class="pill">Aggregation & Grouping</span>
+        <span class="pill">Subqueries</span><span class="pill">Joins</span>
+         <span class="pill">Window Functions</span>
+        <span class="pill">MongoDB</span>
+      </div>
+    </div>
 
+     
     <div class="skill-card reveal">
       <div class="sk-icon">
         <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm1 17.93V18a1 1 0 00-2 0v1.93A8.001 8.001 0 014.07 13H6a1 1 0 000-2H4.07A8.001 8.001 0 0111 4.07V6a1 1 0 002 0V4.07A8.001 8.001 0 0119.93 11H18a1 1 0 000 2h1.93A8.001 8.001 0 0113 19.93z"/></svg>
@@ -798,17 +825,7 @@ footer {
       </div>
     </div>
 
-    <div class="skill-card reveal">
-      <div class="sk-icon">
-        <svg viewBox="0 0 24 24"><path d="M21 3H3a1 1 0 00-1 1v16a1 1 0 001 1h18a1 1 0 001-1V4a1 1 0 00-1-1zm-1 16H4V5h16v14zM6 9h2v2H6zm0 4h2v2H6zm4-4h8v2h-8zm0 4h8v2h-8z"/></svg>
-      </div>
-      <h3>Machine Learning</h3>
-      <div class="pills">
-        <span class="pill">Linear Regression</span><span class="pill">Logistic Regression</span>
-        <span class="pill">Random Forest</span><span class="pill">Decision Tree</span>
-        <span class="pill">Naïve Bayes</span><span class="pill">KNN</span><span class="pill">SVM</span>
-      </div>
-    </div>
+
 
     <div class="skill-card reveal">
       <div class="sk-icon">
@@ -816,36 +833,16 @@ footer {
       </div>
       <h3>EDA & Feature Engineering</h3>
       <div class="pills">
-        <span class="pill">EDA</span><span class="pill">Feature Engineering</span>
-        <span class="pill">Correlation</span><span class="pill">Hyperparameter Tuning</span>
-        <span class="pill">RMSE · MAE · MAPE</span><span class="pill">Confusion Matrix</span>
-        <span class="pill">Precision · Recall</span>
+        <span class="pill">Exploratory Data Analysis </span><span class="pill">Correlation</span>
+        <span class="pill">Comparison </span><span class="pill">Trends</span><span class="pill">Distribution</span>
+        <span class="pill">Feature Engineering</span> <span class="pill">Confusion Matrix</span>
+        <span class="pill">MSE · MAE · MAPE · RMSE</span>
+        <span class="pill">Accuracy · Precision · Recall · R2 Score</span>
       </div>
     </div>
 
-    <div class="skill-card reveal">
-      <div class="sk-icon">
-        <svg viewBox="0 0 24 24"><path d="M20 13H4a1 1 0 000 2h16a1 1 0 000-2zM4 9h16a1 1 0 000-2H4a1 1 0 000 2zm0 8a1 1 0 000 2h10a1 1 0 000-2H4z"/></svg>
-      </div>
-      <h3>SQL & Databases</h3>
-      <div class="pills">
-        <span class="pill">SQL</span><span class="pill">DDL / DML</span>
-        <span class="pill">Joins & Subqueries</span><span class="pill">Window Functions</span>
-        <span class="pill">Group By / Order By</span><span class="pill">MongoDB</span>
-      </div>
-    </div>
 
-    <div class="skill-card reveal">
-      <div class="sk-icon">
-        <svg viewBox="0 0 24 24"><path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99l1.5 1.5z"/></svg>
-      </div>
-      <h3>BI & Visualisation</h3>
-      <div class="pills">
-        <span class="pill">Power BI</span><span class="pill">Tableau</span>
-        <span class="pill">KPI Dashboards</span><span class="pill">Calculated Fields</span>
-        <span class="pill">Bubble Charts</span><span class="pill">Lollipop Charts</span><span class="pill">Maps</span>
-      </div>
-    </div>
+
 
     <div class="skill-card reveal">
       <div class="sk-icon">
@@ -859,6 +856,19 @@ footer {
       </div>
     </div>
 
+    <div class="skill-card reveal">
+      <div class="sk-icon">
+        <svg viewBox="0 0 24 24"><path d="M21 3H3a1 1 0 00-1 1v16a1 1 0 001 1h18a1 1 0 001-1V4a1 1 0 00-1-1zm-1 16H4V5h16v14zM6 9h2v2H6zm0 4h2v2H6zm4-4h8v2h-8zm0 4h8v2h-8z"/></svg>
+      </div>
+      <h3>Machine Learning</h3>
+      <div class="pills">
+        <span class="pill">Linear Regression</span><span class="pill">Logistic Regression</span>
+        <span class="pill">Decision Tree</span><span class="pill">Random Forest</span>
+        <span class="pill">Naïve Bayes</span><span class="pill">K-Nearest Neighbors</span><span class="pill">K-Means Clustering</span>
+         <span class="pill">SVM</span>
+      </div>
+    </div>
+     
     <div class="skill-card reveal">
       <div class="sk-icon">
         <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm1 14.93V15a1 1 0 00-2 0v1.93A6.001 6.001 0 016.07 11H8a1 1 0 000-2H6.07A6.001 6.001 0 0111 4.07V6a1 1 0 002 0V4.07A6.001 6.001 0 0117.93 9H16a1 1 0 000 2h1.93A6.001 6.001 0 0113 16.93z"/></svg>
@@ -877,9 +887,9 @@ footer {
       </div>
       <h3>Web & Spreadsheets</h3>
       <div class="pills">
+         <span class="pill">Excel (HLOOKUP · VLOOKUP · Pivot)</span>
         <span class="pill">HTML / CSS / JS</span><span class="pill">Bootstrap</span>
         <span class="pill">Node.js</span><span class="pill">MongoDB</span>
-        <span class="pill">Excel (VLOOKUP · Pivot)</span>
       </div>
     </div>
 
@@ -972,35 +982,8 @@ footer {
       </div>
     </div>
 
-    <!-- Project 3 -->
-    <div class="proj-card reveal">
-      <div class="proj-top proj-top-art">
-        <div class="proj-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
-        </div>
-      </div>
-      <div class="proj-body">
-        <div class="proj-num">Project · 03</div>
-        <div class="proj-title">Artistry — Art E-Commerce Platform</div>
-        <p class="proj-desc">
-          Designed and developed a full-stack online art gallery and e-commerce website for BSc. IT (Nagindas Khandwala College). Features artist profiles, auction &amp; fixed-price listings, shopping cart, wishlist, order management, and admin panel. Built with Node.js, MongoDB, and Bootstrap.
-        </p>
-        <div class="proj-pills">
-          <span class="proj-pill">HTML / CSS / JS</span>
-          <span class="proj-pill">Bootstrap</span>
-          <span class="proj-pill">Node.js</span>
-          <span class="proj-pill">MongoDB</span>
-          <span class="proj-pill">jQuery</span>
-          <span class="proj-pill">Ajax</span>
-        </div>
-        <a href="https://github.com/Mystri03" target="_blank" class="proj-link">
-          View on GitHub
-          <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
-        </a>
-      </div>
-    </div>
-
-    <!-- Project 4 — Climate Change -->
+   
+    <!-- Project 3 — Climate Change -->
     <div class="proj-card reveal">
       <div class="proj-top" style="background:linear-gradient(135deg,#fdf0f5 0%,#fce4ec 50%,#e8b4c8 100%);">
         <div class="proj-icon">
@@ -1010,7 +993,7 @@ footer {
         </div>
       </div>
       <div class="proj-body">
-        <div class="proj-num">Project · 04 &nbsp;·&nbsp; Unified Mentor Internship</div>
+        <div class="proj-num">Project · 03 &nbsp;·&nbsp; Unified Mentor Internship</div>
         <div class="proj-title">Climate Change Analysis</div>
         <p class="proj-desc">
           Analysed global climate data to uncover long-term temperature and emission trends across regions and decades. Performed in-depth EDA to identify seasonal patterns and anomalies, built forecasting models to project future climate trajectories, and created clear visual narratives to communicate findings.
@@ -1030,7 +1013,7 @@ footer {
       </div>
     </div>
 
-    <!-- Project 5 — Tobacco Mortality -->
+    <!-- Project 4 — Tobacco Mortality -->
     <div class="proj-card reveal">
       <div class="proj-top" style="background:linear-gradient(135deg,#fff5f8 0%,#fce4ec 50%,#dba0b4 100%);">
         <div class="proj-icon">
@@ -1040,7 +1023,7 @@ footer {
         </div>
       </div>
       <div class="proj-body">
-        <div class="proj-num">Project · 05 &nbsp;·&nbsp; Unified Mentor Internship</div>
+        <div class="proj-num">Project · 04 &nbsp;·&nbsp; Unified Mentor Internship</div>
         <div class="proj-title">Tobacco Mortality Analysis</div>
         <p class="proj-desc">
           Investigated the relationship between tobacco use and mortality rates using real public health data. Applied statistical tests and correlation analysis to identify key risk factors, built ML classification models to predict mortality likelihood, and surfaced insights that could inform public health decisions.
@@ -1060,7 +1043,7 @@ footer {
       </div>
     </div>
 
-    <!-- Project 6 — Coffee Sales -->
+    <!-- Project 5 — Coffee Sales -->
     <div class="proj-card reveal">
       <div class="proj-top" style="background:linear-gradient(135deg,#fdf0f5 0%,#fce4ec 45%,#c8909a 100%);">
         <div class="proj-icon">
@@ -1070,7 +1053,7 @@ footer {
         </div>
       </div>
       <div class="proj-body">
-        <div class="proj-num">Project · 06 &nbsp;·&nbsp; Unified Mentor Internship</div>
+        <div class="proj-num">Project · 05 &nbsp;·&nbsp; Unified Mentor Internship</div>
         <div class="proj-title">Coffee Sales Forecasting</div>
         <p class="proj-desc">
           Explored and analysed coffee sales data to understand revenue patterns, seasonal demand shifts, and product performance. Performed detailed EDA to surface trends and applied time-series forecasting to predict future sales, helping identify growth opportunities and optimise inventory decisions.
@@ -1089,6 +1072,35 @@ footer {
         </a>
       </div>
     </div>
+
+<!-- Project 6 -->
+    <div class="proj-card reveal">
+      <div class="proj-top proj-top-art">
+        <div class="proj-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+        </div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-num">Project · 06</div>
+        <div class="proj-title">Artistry — Art E-Commerce Platform</div>
+        <p class="proj-desc">
+          Designed and developed a full-stack online art gallery and e-commerce website for BSc. IT (Nagindas Khandwala College). Features artist profiles, auction &amp; fixed-price listings, shopping cart, wishlist, order management, and admin panel. Built with Node.js, MongoDB, and Bootstrap.
+        </p>
+        <div class="proj-pills">
+          <span class="proj-pill">HTML / CSS / JS</span>
+          <span class="proj-pill">Bootstrap</span>
+          <span class="proj-pill">Node.js</span>
+          <span class="proj-pill">MongoDB</span>
+          <span class="proj-pill">jQuery</span>
+          <span class="proj-pill">Ajax</span>
+        </div>
+        <a href="https://github.com/Mystri03" target="_blank" class="proj-link">
+          View on GitHub
+          <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+        </a>
+      </div>
+    </div>
+
 
   </div>
 </section>
@@ -1186,26 +1198,10 @@ footer {
 
     <div class="cert-card reveal">
       <div class="cert-icon">
-        <svg viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
-      </div>
-      <div class="cert-name">BSc. IT Final Year Project</div>
-      <div class="cert-sub">Artistry — Art E-Commerce<br>Nagindas Khandwala College · 2024</div>
-    </div>
-
-    <div class="cert-card reveal">
-      <div class="cert-icon">
         <svg viewBox="0 0 24 24"><path d="M21 3H3a1 1 0 00-1 1v16a1 1 0 001 1h18a1 1 0 001-1V4a1 1 0 00-1-1zm-9 12l-5-5 1.41-1.41L12 12.17l7.59-7.58L21 6l-9 9z"/></svg>
       </div>
       <div class="cert-name">Data Science Internship</div>
       <div class="cert-sub">Unified Mentor<br>Certificate of Completion</div>
-    </div>
-
-    <div class="cert-card reveal">
-      <div class="cert-icon">
-        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm1 17.93V18a1 1 0 00-2 0v1.93A8.001 8.001 0 014.07 13H6a1 1 0 000-2H4.07A8.001 8.001 0 0111 4.07V6a1 1 0 002 0V4.07A8.001 8.001 0 0119.93 11H18a1 1 0 000 2h1.93A8.001 8.001 0 0113 19.93z"/></svg>
-      </div>
-      <div class="cert-name">Applied AI & Big Data</div>
-      <div class="cert-sub">MSc. IT Specialisation<br>University of Mumbai</div>
     </div>
 
   </div>
